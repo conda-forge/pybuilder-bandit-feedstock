@@ -1,5 +1,5 @@
 {% set name = "pybuilder-bandit" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pybuilder-bandit-{{ version }}.tar.gz
-  sha256: e410832729acbac5468e5113f4265d311267374be2d598d76b875fad980bf57f
+  sha256: d37269c95b1aaf89d5c91de1226e1e770cf1635f721e3a9701fe59495cfc93a2
 
 build:
   number: 0
